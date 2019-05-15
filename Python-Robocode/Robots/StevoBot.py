@@ -24,26 +24,32 @@ class Stevo(Robot): #Create a Robot
 
         
         self.lockRadar("gun") #remove this for independent scanner
-        self.setRadarField("thin")
+        #self.setRadarField("thin")
     
     def run(self): #NECESARY FOR THE GAME  main loop to command the bot
 
-        #self.radarTurn(360)
-        
+       self.setRadarField("thin")
+       #self.gunTurn(360)
        #movement sequence one is a circle
-       self.gunTurn(360) #rotates the gun and scannner
+
+        #circle
+       count=0;
+       counts=0;
+       while (counts < 4):
+           self.gunTurn(90)
+           counts = counts + 1
+            
+           
+       while (count < 4):
+           self.gunTurn(90)
+           self.turn(90)
+           self.move(100)
+           count = count + 1
+
 
     
-        #Movemenet
-
-        
-        while (count < 10):
-            self.turn(90)
-            self.move(1000)
-            count = count + 1
         
 
-    
         
     def sensors(self):  #NECESARY FOR THE GAME
         """Tick each frame to have datas about the game"""
@@ -73,7 +79,7 @@ class Stevo(Robot): #Create a Robot
         self.pause(100)
         self.move(-100)
         self.rPrint('ouch! a wall !')
-        self.setRadarField("large") #Change the radar field form
+        
 
         
     
