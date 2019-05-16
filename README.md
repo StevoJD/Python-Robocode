@@ -10,8 +10,8 @@
 
 ### Installation
 
- [Python 2.7 Windows 64bit](https://www.python.org/ftp/python/2.7.16/python2716.chm)
- [Pyqt4.exe](https://netcologne.dl.sourceforge.net/project/pyqt/PyQt4/PyQt-4.11.4/PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x64.exe)
+* [Python 2.7 Windows 64bit](https://www.python.org/ftp/python/2.7.16/python2716.chm)
+* [Pyqt4.exe](https://netcologne.dl.sourceforge.net/project/pyqt/PyQt4/PyQt-4.11.4/PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x64.exe)
  
 
 
@@ -24,4 +24,4 @@
 
 ### StevoJDbot
 
-*
+ * Movement
