@@ -76,8 +76,7 @@ class Stevo(Robot): #Create a Robot
 
     def onHitWall(self):
         self.reset() #To reset the run fonction to the begining (auomatically called on hitWall, and robotHit event) 
-        self.pause(100)
-        self.move(-100)
+        self.move(-200)
         self.rPrint('ouch! a wall !')
         
 

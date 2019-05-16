@@ -1,7 +1,7 @@
 (dp0
 S'width'
 p1
-I700
+I800
 sS'botList'
 p2
 (lp3
@@ -10,5 +10,5 @@ Stevo
 p4
 asS'height'
 p5
-I500
+I800
 s.
