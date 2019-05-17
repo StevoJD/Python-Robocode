@@ -28,6 +28,9 @@
  - Could not implement as python inf is a float and the self move requires an int 
  3. Game awarness. e.g 1v1 
  
+### Bugs
+- When bot miss shots it should scan again and aim at target. As the radar will be on target but the bullets miss. However bulletmiss event launches too slow or not at all and the bot kills it self by wasting energy
+ 
  
  
  
