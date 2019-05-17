@@ -7,7 +7,7 @@ from math import *
 from robot import Robot #Import a base Robot
 
 
-class Stevo(Robot): #Create a Robot
+class Aim(Robot): #Create a Robot
     
     def init(self):# NECESARY FOR THE GAME   To initialyse your robot
         

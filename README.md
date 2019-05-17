@@ -15,19 +15,41 @@
  - StevoJDbot
  - Center
  - Wall
+ - Aim
 
 
 ### StevoJDbot
  - The movement is circle motion.
- - Head on targeting system that has system that can control power of shot and recoil.
+ - Head on targeting system that has system that can control power of shot and firerate.
+ 
+ - How to improve
+ 1. Implement a strafing stragety to dodge more bullets this would be espically effective in 1v1
+ 2. More complex movements 
+ 
+ 
  
  
 ### Center
  - This bot is designed to move to the center of the arena.
  - Calculates the distance and the angle and moves the bot.
-Unfortunately the bot does not work as it won't turn the tank in the correct direction.
+Unfortunately the bot does not work as it won't turn the tank in the correct direction. So this was not implemented in my main bot.
+
+- [Distance](https://stackoverflow.com/questions/5228383/how-do-i-find-the-distance-between-two-points)
+- [Angle](https://stackoverflow.com/questions/21483999/using-atan2-to-find-angle-between-two-vectors#21484228)
+
+ 
 
 ### Wall
  - Bot that detects walls 
- As there is no speed/velocity. 
- I did try *-1 of the direction this did work but then the main loop would start again.
+ There is no speed/velocity. 
+ I did try *-1 of the direction this did work but then the main loop would start again and make the bot move forward when it should have gone backwards to avoid that wall.
+ This solution was created to be alternative strategy for the Center bot.  
+ 
+### Aim bot
+ - Radar moves independently then gun moves to the target
+ Decided to remove from StevoJD bot as the gun takes to long to move to target and always rotates clockwise when the other direction would be quicker. Had to update robot.py Line 404
+- [Targetting](http://robowiki.net/wiki/Head-On_Targeting)
+
+### Whats Next?
+
+- ML(http://www.dinbedstemedarbejder.dk/Dat3.pdf) in Python robocode.
