@@ -12,7 +12,7 @@
  
 
 ### Bots
- - StevoJDbot
+ - StevoJDbot (Main)
  - Center
  - Wall
  - Aim
