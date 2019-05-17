@@ -33,6 +33,7 @@
 ### Center
  - This bot is designed to move to the center of the arena.
  - Calculates the distance and the angle and moves the bot.
+ 
 Unfortunately the bot does not work as it won't turn the tank in the correct direction. So this was not implemented in my main bot.
 
 - [Distance](https://stackoverflow.com/questions/5228383/how-do-i-find-the-distance-between-two-points)
@@ -43,6 +44,7 @@ Unfortunately the bot does not work as it won't turn the tank in the correct dir
 ### Wall
  - Bot that detects walls 
  There is no speed/velocity. 
+ 
  I did try *-1 of the direction this did work but then the main loop would start again and make the bot move forward when it should have gone backwards to avoid that wall.
  This solution was created to be alternative strategy for the Center bot.  
  
