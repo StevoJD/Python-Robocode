@@ -97,6 +97,8 @@ class Stevo(Robot): #Create a Robot
         self.rPrint ("hit by " + str(bulletBotName) + "with power:" +str( bulletPower))
 
         
+
+        
         
     def onBulletHit(self, botId, bulletId):#NECESARY FOR THE GAME
         """when my bullet hit a bot"""

@@ -23,8 +23,9 @@
  - Head on targeting system that has system that can control power of shot and firerate.
  
  - How to improve
- 1. Implement a strafing stragety to dodge more bullets this would be espically effective in 1v1
+ 1. Implement a strafing stragety to dodge more bullets this would be espically effective in 1v1 [Strafing](http://mark.random-article.com/weber/java/robocode/lesson5.html)
  2. More complex movements 
+ 3. Game awarness. e.g 1v1 
  
  
  
@@ -52,4 +53,4 @@ Unfortunately the bot does not work as it won't turn the tank in the correct dir
 
 ### Whats Next?
 
-- ML(http://www.dinbedstemedarbejder.dk/Dat3.pdf) in Python robocode.
+- [Machine Learning](http://www.dinbedstemedarbejder.dk/Dat3.pdf) in Python robocode.
