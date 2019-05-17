@@ -20,7 +20,7 @@
 
 ### StevoJDbot
  - The movement is circle motion.
- - Head on targeting system that has system that can control power of shot and firerate.
+ - Head on targeting system that has system that can control power of shot and firerate. (Line 146 onwards)
  
  - How to improve
  1. Implement a strafing stragety to dodge more bullets this would be espically effective in 1v1 [Strafing](http://mark.random-article.com/weber/java/robocode/lesson5.html)
