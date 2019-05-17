@@ -50,6 +50,7 @@ Unfortunately the bot does not work as it won't turn the tank in the correct dir
  
 ### Aim bot
  - Radar moves independently then gun moves to the target
+ 
  Decided to remove from StevoJD bot as the gun takes to long to move to target and always rotates clockwise when the other direction would be quicker. Had to update robot.py Line 404
 - [Targetting](http://robowiki.net/wiki/Head-On_Targeting)
 
