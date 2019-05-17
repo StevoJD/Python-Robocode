@@ -401,7 +401,7 @@ class Robot(QtGui.QGraphicsItemGroup):
         return self.__base.rotation()
         
     def getRadarHeading(self):
-        return self.__gun.rotation()
+        return self.__radar.rotation() #updated so can get the radar heading so aim bot can work
         
     def reset(self):
         self.__physics.reset()
