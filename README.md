@@ -24,7 +24,8 @@
  
  - How to improve
  1. Implement a strafing stragety to dodge more bullets this would be espically effective in 1v1 [Strafing](http://mark.random-article.com/weber/java/robocode/lesson5.html)
- 2. More complex movements 
+ 2. More complex [movements](http://www.robowiki.net/wiki/Anti-Gravity_Tutorial)
+ - Could not implement as python inf is a float and the self move requires an int 
  3. Game awarness. e.g 1v1 
  
  
