@@ -30,6 +30,8 @@
  
 ### Bugs
 - When bot miss shots it should scan again and aim at target. As the radar will be on target but the bullets miss. However bulletmiss event launches too slow or not at all and the bot kills it self by wasting energy
+
+- Because the center method did not work the bot can reverse into walls and kill himself :(
  
  
  
